@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tekia Perú | Soluciones Tecnológicas, Desarrollo Web & Facturación SUNAT</title>
+    <meta name="description" content="Tekia Perú ofrece soluciones tecnológicas integrales: Desarrollo Web y Mobile a medida, Facturación Electrónica SUNAT, Infraestructura Cloud AWS/Azure y Ciberseguridad para Pymes en Lima y todo el Perú.">
+    <meta name="keywords" content="Tekia Perú, desarrollo web Lima, facturación electrónica SUNAT, soporte IT Perú, desarrollo de software, hosting cloud, ciberseguridad Pymes">
+    <meta name="author" content="Tekia Perú">
+    
+    <link rel="canonical" href="https://brunomezat.github.io/Tekia-Peru/">
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-light z-100 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Tekia Perú</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuOffcanvas"
+                    aria-controls="menuOffcanvas">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="nav-menu offcanvas offcanvas-end text-white border-0" tabindex="-1" id="menuOffcanvas">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title">Tekia Perú</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+                    </div>
+
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav align-items-center text-white gap-lg-2">
+                            <li><a class="nav-link text-white fw-bold active" aria-current="page"
+                                    href="index.html">Inicio</a></li>
+                            <li><a class="nav-link text-white fw-bold" href="pages/Productos.html">Productos</a></li>
+                            <li><a class="nav-link text-white fw-bold" href="pages/Nosotros.html">Nosotros</a></li>
+                            <li><a class="nav-link text-white fw-bold" href="pages/Sedes.html">Sedes</a></li>
+                            <li><a class="nav-link text-white fw-bold" href="pages/Contacto.html">Contacto</a></li>
+                            <li class="ms-2">
+                                <a href="pages/Contacto.html" class="btn nav-btn fw-bold rounded-pill px-3">Cotizar <i
+                                        class="bi bi-arrow-right"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seccion Hero -->
+        <section class="hero carousel slide carousel-fade d-flex" id="Inicio">
+            <!-- Botones inferiores de las imagenes -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#Inicio" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Imagen 1"></button>
+                <button type="button" data-bs-target="#Inicio" data-bs-slide-to="1" aria-label="Imagen 2"></button>
+                <button type="button" data-bs-target="#Inicio" data-bs-slide-to="2" aria-label="Imagen 3"></button>
+            </div>
+
+            <!-- Contenido en el Hero -->
+            <div class="carousel-inner">
+
+                <!-- Slide 1 -->
+                <div class="carousel-item active position-relative" style="height: 70vh;">
+                    <img src="img/foto1.jpg" class="position-absolute d-block w-100 h-100 object-fit-cover"
+                        alt="Primera imagen">
+
+                    <!-- Para hacer una sombra -->
+                    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 z-1"></div>
+
+                    <div
+                        class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 w-100 start-0 bottom-0 px-4 z-2">
+                        <h2 class="display-5 fw-bold">Innovación e Inteligencia Digital</h2>
+
+                        <div class="hero-info bg-dark card text-white text-start shadow-lg border-0 p-3 p-md-4 mt-5">
+                            <div class="bg-primary-subtle text-dark col-7 px-3 py-2 rounded-pill d-flex">
+                                <i class="promo-icon fa-solid fa-code my-auto me-2"></i>
+                                <h3 class="text-center mb-0">Pack Transformación Digital</h3>
+                            </div>
+
+                            <h5 class="my-3 pb-2">
+                                ¡Por solo S/ 1,499.00 obtén tu página web corporativa, facturación electrónica e
+                                integración Cloud!
+                                <em>Promoción válida para pymes e independientes en Lima y provincias.</em>
+                            </h5>
+                            <a href="pages/Productos.html" class="btn bg-primary-subtle text-start rounded-2">SOLICITAR
+                                CONSULTORÍA <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="carousel-item position-relative" style="height: 70vh;">
+                    <img src="img/foto2.jpg" class="position-absolute d-block w-100 h-100 object-fit-cover"
+                        alt="Segunda imagen">
+
+                    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 z-1"></div>
+
+                    <div
+                        class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 w-100 start-0 bottom-0 px-4 z-2">
+                        <h2 class="display-5 fw-bold">Desarrollo de Software a Medida</h2>
+
+                        <div class="hero-info bg-dark card text-white text-start shadow-lg border-0 p-3 p-md-4 mt-5">
+                            <div class="bg-primary-subtle text-dark col-7 px-3 py-2 rounded-pill d-flex">
+                                <i class="promo-icon fa-solid fa-laptop-code my-auto me-2"></i>
+                                <h3 class="text-center mb-0">Auditoría IT Gratuita</h3>
+                            </div>
+
+                            <h5 class="my-3 pb-2">
+                                Diagnóstico completo de tu infraestructura tecnológica sin costo por la contratación de
+                                cualquier plan de soporte.
+                                <em>Válido para startups y empresas en San Isidro, Surco y Miraflores.</em>
+                            </h5>
+                            <a href="pages/Productos" class="btn bg-primary-subtle text-start rounded-2">SOLICITAR
+                                CONSULTORÍA <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="carousel-item position-relative" style="height: 70vh;">
+                    <img src="img/foto3.jpg" class="d-block w-100" alt="Tercera imagen">
+
+                    <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark bg-opacity-50 z-1"></div>
+
+                    <div
+                        class="carousel-caption d-flex flex-column align-items-center justify-content-center h-100 w-100 start-0 bottom-0 px-4 z-2">
+                        <h2 class="display-5 fw-bold">Seguridad y Soporte 24/7</h2>
+
+                        <div class="hero-info bg-dark card text-white text-start shadow-lg border-0 p-3 p-md-4 mt-5">
+                            <div class="bg-primary-subtle text-dark col-7 px-3 py-2 rounded-pill d-flex">
+                                <i class="promo-icon fa-solid fa-shield-halved my-auto me-2"></i>
+                                <h3 class="text-center mb-0">Plan Ciberseguridad Pyme</h3>
+                            </div>
+
+                            <h5 class="my-3 pb-2">
+                                Protege la información de tu negocio desde S/ 299.00 al mes con respaldo automático en
+                                la nube.
+                                <em>Atención presencial en Lima Metropolitana y remota a todo el Perú.</em>
+                            </h5>
+                            <a href="pages/Productos" class="btn bg-primary-subtle text-start rounded-2">SOLICITAR
+                                CONSULTORÍA <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Opciones / Servicios Rápidos -->
+        <section class="py-4 px-5 mb-4 text-center" id="Beneficios">
+            <div class="opciones row g-5 d-flex">
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="opciones-item card shadow pt-3 bg-dark border-secondary text-white">
+                        <i class="fa-solid fa-code mb-2 text-info fs-3"></i>
+                        <p class="small">Desarrollo Web<br>y Apps Móviles</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="opciones-item card shadow pt-3 bg-dark border-secondary text-white">
+                        <i class="fa-solid fa-cloud-arrow-up mb-2 text-info fs-3"></i>
+                        <p class="small">Migración Cloud<br>y Servidores AWS</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="opciones-item card shadow pt-3 bg-dark border-secondary text-white">
+                        <i class="fa-solid fa-file-invoice-dollar mb-2 text-info fs-3"></i>
+                        <p class="small">Facturación<br>Electrónica SUNAT</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="opciones-item card shadow pt-3 bg-dark border-secondary text-white">
+                        <i class="fa-solid fa-shield-halved mb-2 text-info fs-3"></i>
+                        <p class="small">Ciberseguridad<br>y Backup Cloud</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="opciones-item card shadow pt-3 bg-dark border-secondary text-white">
+                        <i class="fa-solid fa-headset mb-2 text-info fs-3"></i>
+                        <p class="small">Soporte Técnico<br>Remoto 24/7</p>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <div class="opciones-item card shadow pt-3 bg-dark border-secondary text-white">
+                        <i class="fa-solid fa-chart-line mb-2 text-info fs-3"></i>
+                        <p class="small">Consultoría IT<br>para Pymes Perú</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Productos / Servicios Principales -->
+        <section class="inv-section col-11 mx-auto mb-5 text-white" id="Servicios">
+            <h2 class="fw-bold">Nuestros Servicios Tech</h2>
+            <p class="section-subtitle fw-bold text-muted">Explora las soluciones tecnológicas que impulsan tu negocio
+            </p>
+
+            <div class="row g-5 mx-4">
+                <!-- Servicio 1: Desarrollo Web y Mobile -->
+                <div class="col-md-6 col-12">
+                    <article class="product-card bg-dark border border-secondary text-white rounded-4 d-flex">
+                        <div class="card-img">
+                            <img src="img/producto1.jpg" alt="Desarrollo de Software"
+                                class="rounded-start-4 w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="card-body px-3 d-flex flex-column justify-content-center">
+                            <h3 class="card-title mb-2 text-info fs-4 fw-bold">Desarrollo Web & Apps</h3>
+                            <p class="card-desc text-light small">
+                                Diseñamos plataformas web ágiles y apps nativas optimizadas para el mercado peruano.
+                            </p>
+                            <a href="pages/Productos.html"
+                                class="card-link text-info text-decoration-none fw-bold">Explorar soluciones aquí →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Servicio 2: Facturación Electrónica -->
+                <div class="col-md-6 col-12">
+                    <article class="product-card bg-dark border border-secondary text-white rounded-4 d-flex">
+                        <div class="card-img">
+                            <img src="img/producto2.jpg" alt="Facturación Electrónica SUNAT"
+                                class="rounded-start-4 w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="card-body px-3 d-flex flex-column justify-content-center">
+                            <h3 class="card-title mb-2 text-info fs-4 fw-bold">Sistemas SUNAT</h3>
+                            <p class="card-desc text-light small">
+                                Módulos de facturación electrónica 100% integrados a la SUNAT para comercios e
+                                industrias.
+                            </p>
+                            <a href="pages/Productos.html"
+                                class="card-link text-info text-decoration-none fw-bold">Visualizar planes aquí →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Servicio 3: Infraestructura Cloud -->
+                <div class="col-md-6 col-12">
+                    <article class="product-card bg-dark border border-secondary text-white rounded-4 d-flex">
+                        <div class="card-img">
+                            <img src="img/producto3.jpg" alt="Servicios en la Nube"
+                                class="rounded-start-4 w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="card-body px-3 d-flex flex-column justify-content-center">
+                            <h3 class="card-title mb-2 text-info fs-4 fw-bold">Servicios Cloud</h3>
+                            <p class="card-desc text-light small">
+                                Migra tus bases de datos e infraestructura física a entornos de alta disponibilidad como
+                                AWS o Azure.
+                            </p>
+                            <a href="pages/Productos.html" class="card-link text-info text-decoration-none fw-bold">Ver
+                                opciones aquí →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Servicio 4: Ciberseguridad & IT -->
+                <div class="col-md-6 col-12">
+                    <article class="product-card bg-dark border border-secondary text-white rounded-4 d-flex">
+                        <div class="card-img">
+                            <img src="img/producto4.jpg" alt="Ciberseguridad Empresarial"
+                                class="rounded-start-4 w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="card-body px-3 d-flex flex-column justify-content-center">
+                            <h3 class="card-title mb-2 text-info fs-4 fw-bold">Ciberseguridad IT</h3>
+                            <p class="card-desc text-light small">
+                                Protección integral contra malware, auditorías de vulnerabilidad y respaldos
+                                automatizados.
+                            </p>
+                            <a href="pages/Productos.html"
+                                class="card-link text-info text-decoration-none fw-bold">Explorar planes aquí →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="p-4 bg-dark border-top border-secondary text-white" id="Contacto"
+        style="background-color: #0b0f19 !important;">
+        <div class="footer-desc text-center d-flex flex-column align-items-center">
+            <div
+                class="footer-logo col-12 col-md-4 col-lg-2 mb-3 p-2 rounded-3 bg-opacity-10 bg-info border border-info border-opacity-25 text-info fw-bold">
+                <span class="d-inline-flex align-items-center justify-content-center gap-2">
+                    Tekia
+                    <i class="fa-solid fa-laptop-code"></i>
+                    Perú
+                </span>
+            </div>
+
+            <ul class="footer-socials list-unstyled d-flex gap-3 justify-content-center m-0 p-0">
+                <li>
+                    <a href="#">
+                        <i class="text-white fa-brands fa-linkedin-in"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="text-white fa-brands fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="text-white fa-brands fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer-datos text-center">
+            <hr class="border-secondary my-4">
+            <h4 class="fs-5 text-white">Bruno Salvador Mezarina Tupa <b class="text-info">Evaluación Integral</b></h4>
+            <p class="text-white-50 mb-1 small">Réplica académica diseñada en ISIL</p>
+            <p class="text-white-50 mb-0 small">22 de Julio, 2026</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
